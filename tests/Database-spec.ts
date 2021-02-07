@@ -7,6 +7,7 @@ describe("Trouble with iterables => ", () => {
   it("tables property is an array", () => {
     const db = Database(Table(Song), Table(Playlist));
     expect(Array.isArray(db.tables)).toBe(true);
+    expect(typeof db.tables[0]).toBe("object");
   });
 
   // for..of iterates over the array correctly and extracts the "name" prop
