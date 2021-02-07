@@ -27,3 +27,14 @@ In cases where I'd expect `forEach` and `for .. of` to behave identically ... so
 - both `for..of` and `array.forEach` should be able to iterate over the array
 
 This strikes me as truely bizarre that _only_ `for..of` works!
+
+## Test
+
+From the terminal:
+
+```sh
+# install deps
+yarn
+# run tests
+yarn test
+```
