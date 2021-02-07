@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "module": "commonjs",
+    "target": "ESNEXT",
+    "lib": ["DOM"],
+    "incremental": true,
+    "skipLibCheck": true,
+    "noUnusedLocals": true,
+    "paths": {
+      "~/*": ["src/*"],
+      "@/*": ["src/*"]
+    }
+  },
+  "include": ["src", "tests"]
+}
